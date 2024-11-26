@@ -18,7 +18,7 @@ byte colPins[COLS] = {27, 14, 12, 13};    // Pin kolom
 
 // Inisialisasi keypad
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS);
-
+Berhasil
 void setup() {
   Serial.begin(9600);
 }
