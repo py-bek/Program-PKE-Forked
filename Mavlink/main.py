@@ -9,12 +9,7 @@ to AUTO.
 When the mission is completed we command to co back to home and land
 """
 
-import time
-import collections
-import torch
-import cv2
-from datetime import datetime
-import math
+
 
 try:
     from collections import abc
